@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background: black;
+}
+
+.manecilla {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform-origin: 0%;
+}
+
+.horario {
+  width: 25%;
+  height: 10px;
+  background-color: blue;
+}
+
+.minutero {
+  width: 35%;
+  height: 6px;
+  background-color: yellow;
+  transition: transform 1s ease-in-out;
+}
+
+.segundero {
+  width: 45%;
+  height: 4px;
+  background-color: green;
+  transition: transform 1s ease-in-out;
+}
+
+.horario {
+  width: 20%;
+  height: 12px;
+}
